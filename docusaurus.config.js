@@ -2,7 +2,7 @@ module.exports = {
   title: 'InfoSite',
   tagline: 'Learn. Document. Build.',
   url: 'https://akashghanate.github.io',
-  baseUrl: '/',
+  baseUrl: '/InfoSite/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
