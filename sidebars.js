@@ -1,6 +1,9 @@
 module.exports = {
-  someSidebar: {
-    Java: ['doc1'],
-    Python: ['mdx'],
+  docs: {
+    Java: [
+      'java/tips',
+      'java/sb'
+    ],
+    Python: ['python/mdx'],
   },
 };

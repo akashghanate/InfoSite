@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: (<><div className='home_items_title'><Link to='/docs/doc1' >Java</Link></div></>),
+    title: (<><div className='home_items_title'><Link to='/docs/java/doc1' >Java</Link></div></>),
     imageUrl: ('img/java-logo.svg'),
   },
   {
@@ -16,16 +16,16 @@ const features = [
     imageUrl: 'img/python.png',
   
   },
-  {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+  // {
+  //   title: 'Powered by React',
+  //   // imageUrl: 'img/undraw_docusaurus_react.svg',
+  //   description: (
+  //     <>
+  //       Extend or customize your website layout by reusing React. Docusaurus can
+  //       be extended while reusing the same header and footer.
+  //     </>
+  //   ),
+  // },
 ];
 
 function Feature({imageUrl, title, description}) {
@@ -60,7 +60,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/doc1')}>
+              to={useBaseUrl('docs/java/tips')}>
               Get Started
             </Link>
           </div>

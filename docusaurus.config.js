@@ -17,7 +17,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/doc1',
+          to: 'docs/java/tips',
           activeBasePath: 'docs/doc1',
           label: 'Docs',
           position: 'left',
@@ -39,12 +39,22 @@ module.exports = {
               label: 'GitHub',
               href: 'https://github.com/akashghanate',
             },
+            
+          ],
+        },
+        {
+          title: 'Contect With Me',
+          items: [
             {
-              label:'Contact Me',
+              label:'LinkedIn',
+              href: 'https://www.linkedin.com/in/akashghanate/',
+            },
+            {
+              label:'Email',
               href: 'mailto:akashghanate98@gmail.com',
             },
           ],
-        },
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Akash Kumar Ghanate. All rights reserved.`,
     },
