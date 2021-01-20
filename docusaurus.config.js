@@ -1,16 +1,16 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'InfoSite',
+  tagline: 'Learn. Document. Build.',
+  url: 'https://akashghanate.github.io',
+  baseUrl: '/InfoSite/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'akashghanate', // Usually your GitHub org/user name.
+  projectName: 'InfoSite', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'InfoSite',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -77,7 +77,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Akash Kumar Ghanate. All rights reserved`,
     },
   },
   presets: [
