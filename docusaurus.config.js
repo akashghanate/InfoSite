@@ -2,7 +2,7 @@ module.exports = {
   title: 'InfoSite',
   tagline: 'Learn. Document. Build.',
   url: 'https://akashghanate.github.io',
-  baseUrl: '/InfoSite/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -17,52 +17,17 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
+          to: 'docs/doc1',
+          activeBasePath: 'docs/doc1',
           label: 'Docs',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
         {
           title: 'More',
           items: [
@@ -72,12 +37,16 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/akashghanate',
+            },
+            {
+              label:'Contact Me',
+              href: 'mailto:akashghanate98@gmail.com',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Akash Kumar Ghanate. All rights reserved`,
+      copyright: `Copyright © ${new Date().getFullYear()} Akash Kumar Ghanate. All rights reserved.`,
     },
   },
   presets: [
