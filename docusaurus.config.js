@@ -43,7 +43,7 @@ module.exports = {
           ],
         },
         {
-          title: 'Contect With Me',
+          title: 'Connect With Me',
           items: [
             {
               label:'LinkedIn',

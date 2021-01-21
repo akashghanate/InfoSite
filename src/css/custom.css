@@ -7,7 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: black;
+  --ifm-color-primary: #c17900;
   --ifm-color-primary-dark: #002984;
   --ifm-color-primary-darker: #002984;
   --ifm-color-primary-darkest: #002984;
@@ -24,14 +24,18 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+/* homepage features title */
 .home_items_title {
   text-align: center;
   font-size: 2rem;
 }
 
+/* ---------------------------------------------------------- */
+/* get started button */
 .button.button--outline.button--secondary.button--lg {
   color: white !important;
 }
 .button.button--outline.button--secondary.button--lg:hover {
   color: black !important;
 }
+/* -------------------------------------------------------------- */

@@ -8,12 +8,14 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: (<><div className='home_items_title'><Link to='/docs/java/doc1' >Java</Link></div></>),
+    title: (<><div className='home_items_title'>Java</div></>),
     imageUrl: ('img/java-logo.svg'),
+    path: 'docs/java/tips',
   },
   {
-    title: (<><div className='home_items_title'><Link to='/docs/mdx' >Python</Link></div></>),
+    title: (<><div className='home_items_title'>Python</div></>),
     imageUrl: 'img/python.png',
+    path: 'docs/python/mdx'
   
   },
   // {
@@ -28,13 +30,13 @@ const features = [
   // },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, title, description,path}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
+          <Link to={path}><img className={styles.featureImage} src={imgUrl} alt={title} /></Link>
         </div>
       )}
       <h3>{title}</h3>

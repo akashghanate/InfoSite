@@ -6,10 +6,11 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 3em 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-color: black;
 }
 
 @media screen and (max-width: 966px) {
@@ -32,6 +33,6 @@
 }
 
 .featureImage {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
