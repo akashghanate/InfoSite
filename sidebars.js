@@ -1,10 +1,18 @@
 module.exports = {
   docs: {
     Java: [
-      'java/tips',
+      'java/str',
       'java/sb',
-      'java/BI'
+      'java/BI',
+      'java/ul',
+      'java/ll',
+      'java/tips',
     ],
-    Python: ['python/mdx'],
+    Python: [
+      'python/mdx'
+    ],
+    Sql: [
+      'sql/sql'
+    ]
   },
 };

@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/InfoSite/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo1.png',
   organizationName: 'akashghanate', // Usually your GitHub org/user name.
   projectName: 'InfoSite', // Usually your repo name.
   themeConfig: {
@@ -16,7 +16,7 @@ module.exports = {
       title: 'InfoSite',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo1.png',
       },
       items: [
         {
@@ -69,8 +69,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl:
+            'https://github.com/akashghanate/InfoSite/',
         },
         blog: {
           showReadingTime: true,
