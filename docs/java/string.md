@@ -4,62 +4,90 @@ title: String
 sidebar_label: String
 hide_title: true
 ---
-## String 
+## String (Java.lang.String)
+Immutable Datatype
 
 ### Instantiate
 
 ```java
 String s;
 ```
-### Methods (ll)
+### Methods (s)
 
-- **add()** - adding element to Linked List
+- **contains()** - returns true/ false if subString is present in String
     ```java
-    ll.add(element);
-    ll.add(int index, element); //add element at position *index*
-    ll.addLast(element); //add element at last of list
-    ll.addFirst(element); //add element at first of list
+    s.contains(String subString);
+    ```
+- **indexOf()** - returns the index of the subString/ character
+    ```java
+    int n = s.indexOf(String subString);
+    int n = s.indexOf(char ch);
+    ```
+- **replace()** - replace old char wth new char for all occurance of old char
+    ```java
+    s.replace(char old,char new);
+    ```
+    - **replaceFirst()** - replace old char wth new char for first occurance of old char
+    ```java
+    s.replaceFirst(char old,char new);
+    ```
+- **matches()** - tells whether or not the string matches the given regular expression, returns boolean
+    ```java
+    s.matches('regex');
     ```
 
-- **remove()** - removing element from Linked List
+- **split()** - split string at matching regex into string array
     ```java
-    ll.remove(element);
-    ll.remove(int index); //remove element from position *index*
-    ll.removeLast(element); //remove element from last of list
-    ll.removeFirst(element); //remove element from first of list
+    String[] array = s.split('regex');
     ```
-- **size()** - returns size of list
+- **startsWith()** - method determines whether a string begins with the characters of a specified string, returning true or false
     ```java
-    int n = ll.size();
+    s.startsWith(String prefix);
+    s.startsWith(String prefix,int position); // starts searching from the position index
     ```
-- **contains()** - returns true/ false if element is present in list
+- **endsWith()** - method determines whether a string ends with the characters of a specified string, returning true or false
     ```java
-    int n = ll.contains(element);
+    s.endsWith(String suffix);
     ```
-- **set()** - replace element at *index* 
+- **toLowerCase()** - converts string to lowercase string
     ```java
-    ll.set(int index, newElement);
+    String str = s.toLowerCase();
     ```
-- **get()** - returns element at *index* of list
+- **toUpperCase()** - converts string to uppercase string
     ```java
-    datatype n = ll.get(int index);
-    datatype n = ll.getFirst(int index);
-    datatype n = ll.getLast(int index);
+    String str = s.toUpperCase();
+    ```    
+- **trim()** - removes leading and training *whitespace*
+    ```java
+    String str = s.trim();
     ```
-- Stack operations
-    - **push()** - push element to the list
-        ```java
-        ll.push(element);
-        ```
-    - **pop()** - pop top element from the list and returns the element
-        ```java
-        datatype n = ll.pop();
-        ```
-    - **peek()** - returns top element of the list without removing 
-        ```java
-        datatype n = ll.peek();
-        ```
-    - **isEmpty()** - is used to check if a list is empty or not, returns true/false
-        ```java
-        ll.isEmpty();
-        ```
+- **join()** - returns string joined with given *delimiter*  
+    ```java
+    String str = s.join(CharSequence delimiter,CharSequence elements); //elements here are strings
+    ```
+- **compareTo()** - returns int value after comparing two strings lexographically
+    ```java
+    int n = s1.compareTo(s2);
+    ```
+---
+
+- **Character.isLetter()** - returns true/false if char is Letter
+    ```java
+    Character.isLetter(char ch);
+    ```
+- **Character.isDigit()** - returns true/false if char is digit
+    ```java
+    Character.isDigit(char ch);
+    ```
+- **Character.isWhitespace()** - returns true/false if char is space
+    ```java
+    Character.isWhitespace(char ch);
+    ```
+- **Character.isUpperCase()** - returns true/false if char is a Uppercase letter
+    ```java
+    Character.isUpperCase(char ch);
+    ```
+- **Character.isLowerCase()** - returns true/false if char is a Lowercase letter
+    ```java
+    Character.isLowerCase(char ch);
+    ```
