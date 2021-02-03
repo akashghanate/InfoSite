@@ -22,4 +22,3 @@ sidebar_label: Tips & Tricks
     ```java
      int n = (int)Math.floor(Math.log10(Number))+1;
      ```
-- 

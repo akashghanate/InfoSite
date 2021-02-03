@@ -61,3 +61,8 @@ hide_title: true
     ```java
     int n = Collection.frequency(List list, Object o);
     ```
+### 5. Get Max
+- **Collection.max()** - returns maximum of all elements in the list
+    ```java
+    datatype n = Collection.max(List list);
+    ```

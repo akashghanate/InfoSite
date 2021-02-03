@@ -13,13 +13,17 @@ Linked List is a part of the Collection framework present in java.util package. 
 LinkedList<datatype> ll = new LinkedList<datatype>();
 ```
 ### Methods (ll)
+:::tip
+The below listed methods works with all list types
+:::
 
 - **add()** - adding element to Linked List
-    ```java
+    ```java 
     ll.add(element);
     ll.add(int index, element); //add element at position *index*
     ll.addLast(element); //add element at last of list
     ll.addFirst(element); //add element at first of list
+    ll.addAll(int index,List list); // add all elements of list to ll from index position
     ```
 
 - **remove()** - removing element from Linked List
@@ -47,20 +51,6 @@ LinkedList<datatype> ll = new LinkedList<datatype>();
     datatype n = ll.getFirst(int index);
     datatype n = ll.getLast(int index);
     ```
-- Stack operations
-    - **push()** - push element to the list
-        ```java
-        ll.push(element);
-        ```
-    - **pop()** - pop top element from the list and returns the element
-        ```java
-        datatype n = ll.pop();
-        ```
-    - **peek()** - returns top element of the list without removing 
-        ```java
-        datatype n = ll.peek();
-        ```
-    - **isEmpty()** - is used to check if a list is empty or not, returns true/false
-        ```java
-        ll.isEmpty();
-        ```
+- **subList()** - create a sub list from index *start* to *end-1*
+    ```java
+    List newList = oldList.subList(int start, int end);
