@@ -6,6 +6,7 @@ module.exports = {
       'java/BI',
       'java/ul',
       'java/ll',
+      'java/regex',
       'java/tips',
     ],
     Python: [
