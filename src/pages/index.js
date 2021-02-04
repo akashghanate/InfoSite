@@ -10,7 +10,7 @@ const features = [
   {
     title: (<><div className='home_items_title'>Java</div></>),
     imageUrl: ('img/java-logo.svg'),
-    path: 'docs/java/tips',
+    path: 'docs/java/general',
   },
   {
     title: (<><div className='home_items_title'>Python</div></>),
