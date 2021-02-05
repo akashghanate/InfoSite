@@ -35,4 +35,11 @@
 .featureImage {
   height: 150px;
   width: 150px;
+  padding: 3%;
+}
+
+.featureImage:hover {
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.27);
+  border-radius: 20%;
+  transform: rotateZ(-5deg);
 }
