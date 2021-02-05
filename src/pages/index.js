@@ -23,6 +23,11 @@ const features = [
     imageUrl: 'img/sql.png',
     path: 'docs/sql/sql'
   },
+  {
+    title: (<><div className='home_items_title'>Books</div></>),
+    imageUrl: 'img/books.png',
+    path: 'docs/books/cleanCode/page1'
+  },
 ];
 
 function Feature({imageUrl, title, description,path}) {

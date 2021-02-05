@@ -18,9 +18,14 @@ module.exports = {
       items: [
         {
           to: 'docs/java/general',
-          activeBasePath: 'docs/doc1',
+          // activeBasePath: 'docs/doc1',
           label: 'Docs',
           position: 'left',
+        },
+        {
+          to: 'docs/books/cleanCode/page1',
+          label: 'Books',
+          position: 'right',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
       ],

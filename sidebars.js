@@ -13,5 +13,9 @@ module.exports = {
     ],
     Python: ["python/mdx"],
     Sql: ["sql/sql"],
+    
   },
+  Books: {
+    Books: ["books/cleanCode/page1"]
+  }
 };
