@@ -4,15 +4,15 @@
         <title>InfoSite Blog</title>
         <link>https://akashghanate.github.io/blog</link>
         <description>InfoSite Blog</description>
-        <lastBuildDate>Sun, 24 Jan 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Feb 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://akashghanate.github.io/InfoSite/blog/welcome</link>
-            <guid>welcome</guid>
-            <pubDate>Sun, 24 Jan 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Hi, the content is coming up soon....]]></description>
+            <title><![CDATA[vsCode Extension]]></title>
+            <link>https://akashghanate.github.io/InfoSite/blog/vsCode</link>
+            <guid>vsCode</guid>
+            <pubDate>Sat, 13 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Some of the Best VsCode editor extensions to Increase the Productivity]]></description>
         </item>
     </channel>
 </rss>
