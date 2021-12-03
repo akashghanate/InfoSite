@@ -7,8 +7,8 @@ hide_title: true
 (Map don't allow duplicate key)
 
 Types of Map:
-- HashMap
-- LinkedHashMap
+- HashMap - unordered
+- LinkedHashMap - ordered
 - TreeMap (Sorted Map)
 
 ### Instantiate
