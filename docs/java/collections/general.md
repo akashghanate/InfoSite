@@ -19,10 +19,15 @@ List<datatype> al = new ArrayList<datatype>();
 ```
 ### 3. **Set** - Set don't allow duplicate elements
 - Initialize
+- Set is a unordered collection of unique data, data is stored and retrieved in random order.
 ```java
 Set<datatype> set = new HashSet<datatype>(); 
 ```
-- TreeSet (sorted Set)
+- LinkedHashSet - ordered collection of set, data is stored and retrieved in the same order
+     ```java
+    LinkedHashSet<datatype> t = new LinkedHashSet<datatype>();
+    ```
+- TreeSet (sorted Set) - all the elements are sorted in ascending order
     ```java
     TreeSet<datatype> t = new TreeSet<datatype>();
     // To get the highest element
