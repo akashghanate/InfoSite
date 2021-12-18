@@ -18,6 +18,11 @@ const features = [
     path: 'docs/docker/docker',
   },
   {
+    title: (<><div className='home_items_title'>CP</div></>),
+    imageUrl: ('img/cp.png'),
+    path: 'docs/cp/timeComplex',
+  },
+  {
     title: (<><div className='home_items_title'>Python</div></>),
     imageUrl: 'img/python.png',
     path: 'docs/python/mdx'
