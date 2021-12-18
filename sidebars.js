@@ -11,6 +11,12 @@ module.exports = {
       "java/regex",
       "java/tips",
     ],
+    Docker: [
+      "docker/docker",
+      "docker/dockerfile",
+      "docker/dockerCompose",
+      "docker/dockerSwarm"
+    ],
     Python: ["python/mdx"],
     Sql: ["sql/sql"],
     
