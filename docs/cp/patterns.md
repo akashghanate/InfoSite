@@ -9,7 +9,7 @@ hide_title: true
 
 ## 1. Square Star
 
-![Untitled](../../static/img/Untitled.png)
+![pattern](../../static/img/pattern1.png)
 
 ```java
 int i=0,j=0;
@@ -26,7 +26,7 @@ while (i<n){
 
 ## 2. continues number matrix
 
-![Untitled](../../static/img/Untitled%201.png)
+![pattern](../../static/img/pattern2.png)
 
 ```java
 int k =1;
@@ -45,7 +45,7 @@ while(i<n){
 
 ## 3. Star triangle
 
-![Untitled](../../static/img/Untitled%202.png)
+![pattern](../../static/img/pattern3.png)
 
 ```java
 int row=1;
@@ -62,7 +62,7 @@ while(row<=n){
 
 ## 4.
 
-![Untitled](../../static/img/Untitled%203.png)
+![pattern](../../static/img/pattern4.png)
 
 ```java
 int count =1;
@@ -82,7 +82,7 @@ int count =1;
 
 ## 5.
 
-![Untitled](../../static/img/Untitled%204.png)
+![pattern](../../static/img/pattern5.png)
 
 ```java
 				int row=1;
@@ -101,7 +101,7 @@ int count =1;
 
 ## 6.
 
-![Untitled](../../static/img/Untitled%205.png)
+![pattern](../../static/img/pattern6.png)
 
 ```java
 int row=1;
@@ -120,7 +120,7 @@ while(row<=n){-
 
 ## 7.
 
-![Untitled](../../static/img/Untitled%206.png)
+![pattern](../../static/img/pattern7.png)
 
 ```java
 int row=1;
@@ -145,7 +145,7 @@ while(row<=n){
 
 ## 8.
 
-![Untitled](../../static/img/Untitled%207.png)
+![pattern](../../static/img/pattern8.png)
 
 ```java
 int row=1;
@@ -163,7 +163,7 @@ while(row<=n){
 
 ## 9.
 
-![Untitled](../../static/img/Untitled%208.png)
+![pattern](../../static/img/pattern9.png)
 
 ```java
 int row=1;
@@ -194,7 +194,7 @@ while(row<=n){
 
 ## 10.
 
-![Untitled](../../static/img/Untitled%209.png)
+![pattern](../../static/img/pattern10.png)
 
 ```java
 int row=1;
