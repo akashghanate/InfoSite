@@ -18,7 +18,8 @@ module.exports = {
       "docker/dockerSwarm"
     ],
     CP : [
-      "cp/timeComplex"
+      "cp/timeComplex",
+      "cp/pattern"
     ],
     Python: ["python/mdx"],
     Sql: ["sql/sql"],
